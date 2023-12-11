@@ -1,5 +1,3 @@
-
-
 def add_integers(*args):
     """
     Adds variable-length integer arguments.
@@ -12,14 +10,10 @@ def add_integers(*args):
     """
     return sum(args)
 
-# Get user input
 user_input = input("Enter integers separated by spaces: ")
 
-# Convert input to a list of integers
 numbers = [int(num) for num in user_input.split()]
 
-# Call the function with variable-length arguments
 result = add_integers(*numbers)
 
-# Display the result
 print("Sum:", result)
