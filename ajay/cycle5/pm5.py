@@ -25,7 +25,7 @@ print("Circle Area:", area(radius))  # This is from the selectively imported cir
 
 len=int(input("Enter the length of the cuboid:"))
 wid=int(input("Enter the width of the cuboid:"))
-hei=int(input("Enter the hei of the cuboid:"))
+hei=int(input("Enter the height of the cuboid:"))
 
 print("Cuboid Volume:", cuboid_volume(len, wid, hei))
 
